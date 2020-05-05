@@ -9,6 +9,8 @@ def leetspeak(string)
       convertedLetters.push("3")
     elsif letter =="o"
       convertedLetters.push("0")
+    elsif letter == "I"
+      convertedLetters.push("1")
     else
       convertedLetters.push(letter)
     end
