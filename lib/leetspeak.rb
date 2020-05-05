@@ -5,10 +5,12 @@ def leetspeak(string)
   userLetters = userString.split("")
   convertedLetters = []
   userLetters.each do |letter|
-    if letter != "e"
-      convertedLetters.push(letter)
-    else
+    if letter == "e"
       convertedLetters.push("3")
+    elsif letter =="o"
+      convertedLetters.push("0")
+    else
+      convertedLetters.push(letter)
     end
   end
   convertedLetters.join()
