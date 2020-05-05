@@ -1,8 +1,8 @@
+require('rspec')
 require('leetspeak')
 
 describe('String#leetspeak') do
-  it("replaces all e charachters with 3") do
-    expect(leetspeak("he")).to(eq("h3"))
+  it("returns a string when no Leetspeak applies") do
+    expect("happy".leetspeak).to(eq("happy"))
   end
-
 end
