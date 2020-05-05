@@ -11,6 +11,8 @@ def leetspeak(string)
       convertedLetters.push("0")
     elsif letter == "I"
       convertedLetters.push("1")
+    elsif letter == "s"
+      convertedLetters.push("z")
     else
       convertedLetters.push(letter)
     end
