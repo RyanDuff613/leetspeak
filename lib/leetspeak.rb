@@ -1,5 +1,6 @@
 require ('pry')
 
-def leetspeak()
-  return "fuck"
+def leetspeak(string)
+  userString = string
+  userString
 end
